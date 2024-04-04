@@ -40,7 +40,7 @@ function importCSVFromGCS() {
   var formattedTime = Utilities.formatDate(currentTime, Session.getScriptTimeZone(), "yyyy-MM-dd'T'HH:mm:ss'Z'");
   sheet.getRange(1, numColumnsToClear).setValue("Time Synced"); // Set header
   sheet.getRange(2, numColumnsToClear).setValue(formattedTime); // Set timestamp
+}
 
   //Rod Mendoza @ Nishimachi International School
   //rmendoza@nishimachi.ac.jp
-}
