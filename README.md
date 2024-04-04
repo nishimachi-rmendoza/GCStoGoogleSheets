@@ -7,7 +7,7 @@ Part 1: VC to GCS (VC users only)
 3. Create the Data Package
 4. In Data Sources, point it to the query you'd like to export (It supports Accounting queries if you change the Metabase to VCA)
 5. In Format, make sure the format is CSV
-6. In Destination, plug in your sftp url, user and pass.
+6. In Destination, plug in your sftp url, user and pass. If you don't have one, I recommend docevent.io
 7. Type in your destination folder you'll use in the future. This will be the folder your csv will be left in. I recommend typing something like "datapackages/" and then creating a folder called "datapackages" later on in Part 2 Step 3.
 8. In Schedule, type in the times you'd like for the package to be exported
 9. In the Action Menu, run "Sync Schedule"
