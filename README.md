@@ -40,8 +40,10 @@ Part 2: GCS to Sheets
 
 Notes
 -Once a sheet is created with this method, it's recommended create another tab within the same sheet that to be used to list all other sheets that will be using this data. If you need to edit the original query, the code is able to handle this without problems, but you should check how the data flows down to the other sheets as well.
+
 -In the same vein, if you need to edit the query after creating this, simply edit the query, save it, and then "Export Now" in the data package again to test. It should continue running automatically as expected.
--This is mostly meant for Veracross users in order to simplify the process of getting data out of VC and into sheets easily. After setting this up once, any further exports will have a much more simple workflow. This workflow consists of:
+
+This is mostly meant for Veracross users in order to simplify the process of getting data out of VC and into sheets easily. After setting this up once, any further exports will have a much more simple workflow. This workflow consists of:
 1. Create the data package (copying an existing automatic one is the easiest way)
 2. Setup the Data Sources, Format, Destination and Schedule tabs, then run "Sync Schedule" and "Export Now"
 3. Create a new Google Sheet
