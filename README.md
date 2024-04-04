@@ -1,4 +1,4 @@
-e# GCStoGoogleSheets
+# GCStoGoogleSheets
 Premade boilerplate code for getting a CSV from Google Cloud Storage to Google Sheets. In order to get this pipeline working, you will need to follow the instructions on this page and use the code files in the repo.
 
 Part 1: VC to GCS (VC users only)
